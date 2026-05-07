@@ -23,7 +23,7 @@ public class Main2 {
             switch (opcao) {
                 case 1:
                     System.out.print("Nome da tarefa a adicionar: ");
-                    
+                    String nome = leitor.nextLine();
                     System.out.println("Tarefa adicionada!");
                     break;
 
